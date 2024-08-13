@@ -1,7 +1,7 @@
-DROP DATABASE IF EXSITS movies_db;
-CREATE DATABASE movies_db;
+DROP DATABASE IF EXSITS movie_db;
+CREATE DATABASE movie_db;
 
-\c movies_db;
+\c movie_db;
 
 CREATE TABLE movies(
     id SERIAL PRIMARY KEY,
